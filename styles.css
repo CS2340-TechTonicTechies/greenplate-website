@@ -33,3 +33,21 @@ p {
     font-style: normal;
     font-size: clamp(12px, 12px + 1vw, 16px);
 }
+
+h3 {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: clamp(18px, 18px + 2vw, 24px);
+}
+
+p {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: clamp(12px, 12px + 1vw, 16px);
+}
