@@ -1,8 +1,10 @@
 html {
     background: #222;
+    color: #FFF;
     height: 100%;
     display: inline-flex;
     justify-content: center;
+    font-family: "Inter", sans-serif;
 }
 
 body {
@@ -18,7 +20,7 @@ h1 {
 
 h2 {
     font-weight: 500;
-    font-size: clamp(18px, 18px + 2vw, 24px);
+    font-size: clamp(20px, 20px + 2vw, 36px);
     padding-top: 1.5rem;
 }
 
@@ -53,4 +55,5 @@ p {
     color: #d7d7d7;
     font-weight: 300;
     font-size: clamp(12px, 12px + 1vw, 16px);
+    margin-bottom: 1em;
 }

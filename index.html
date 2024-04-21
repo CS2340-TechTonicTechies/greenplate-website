@@ -8,21 +8,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <style>
-    body {
-        font-family: "Inter", sans-serif;
-        color: #FFF;
-    }
-    p {
-        margin-bottom: 1em;
-    }
     .image-container {
       display: flex;
         overflow-x: auto; /* Allow horizontal scrolling if needed */
+        margin-bottom: 2rem;
     }
     .image-container img {
-        margin-right: 10px;
+        margin-right: 0.5rem;
         max-width: 100%; /* Limit the maximum width of the images */
         height: auto; /* Maintain the aspect ratio */
+        max-height: 35rem;
     }
 </style>
 <body>
@@ -57,9 +52,26 @@
         <img src="greenplate-website%20sd%205.png" alt="System Diagram">
     </div>
 
-    <h4>User Interface (UI)</h4>
-    <p>something</p>
-    <img src="welcome%20screen.png" alt="Welcome Screen">
+    <h4>User Interface</h4>
+    <p>Onboarding</p>
+    <div class="image-container">
+        <img src="welcome screen.png" alt="Welcome Screen">
+        <img src="login screen.png" alt="Login Screen">
+        <img src="signup screen.png" alt="Signup Screen">
+    </div>
+
+    <p>Home screen and updating personal health details</p>
+    <div class="image-container">
+        <img src="home screen.png" alt="Meal Screen">
+        <img src="updateinfo screen.png" alt="Update info Screen">
+    </div>
+
+    <p>Meals</p>
+    <div class="image-container">
+        <img src="meals screen.png" alt="Meals Screen">
+        <img src="visualone screen.png" alt="Visual 1 Screen">
+        <img src="visualtwo screen.png" alt="Visual 2 Screen">
+    </div>
 
     <h5>In Review</h5>
 
