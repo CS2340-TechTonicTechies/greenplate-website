@@ -8,69 +8,77 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <style>
-    body {
-        font-family: "Inter", sans-serif;
-        color: #FFF;
-    }
-    p {
-        margin-bottom: 1em;
-    }
     .image-container {
       display: flex;
         overflow-x: auto; /* Allow horizontal scrolling if needed */
+        margin-bottom: 2rem;
     }
     .image-container img {
-        margin-right: 10px;
+        margin-right: 0.5rem;
         max-width: 100%; /* Limit the maximum width of the images */
         height: auto; /* Maintain the aspect ratio */
+        max-height: 35rem;
     }
 </style>
 <body>
-    <h1>✽ greenplate</h1>
+<h1>✽ greenplate</h1>
 
-    <h2>Introducing GreenPlate</h2>
+<h2>Introducing GreenPlate</h2>
 
-    <p>Welcome to GreenPlate: a sustainable food management system.</p>
-    <p>Our app contains many features to aid our users in their health journey. Utilizing a global, user-made recipe list, virtual ingredient pantry, generated shopping list, personally set calorie goals, calorie tracking, and many other features, our app aims to make managing a user’s food intake quicker and simpler through a sleek user interface.</p>
-    <p>On opening the app, our GreenPlate welcome screen appears, greeting the user with a custom design. A brief transition through the login subsequently takes you to our home screen.</p>
-    <p>From here, a user can access any of our features: Input Meals which allows for meal input and multiple calorie visualizations, Recipes which displays a global recipe database and allows you to upload your own recipe, Ingredients which displays your current pantry of ingredients, and Shopping which facilitates an easy-access, integrated place to create your list and add all the ingredients from a recipe. These are just a few of the many features in our app that help to provide a quick and convenient meal tracker.</p>
-    <!--<img src="greenplate-website%20dm%201.png" alt="Domain Model">-->
-    <!--testing above line-->
+<p>Welcome to GreenPlate: a sustainable food management system.</p>
+<p>Our app contains many features to aid our users in their health journey. Utilizing a global, user-made recipe list, virtual ingredient pantry, generated shopping list, personally set calorie goals, calorie tracking, and many other features, our app aims to make managing a user’s food intake quicker and simpler through a sleek user interface.</p>
+<p>On opening the app, our GreenPlate welcome screen appears, greeting the user with a custom design. A brief transition through the login subsequently takes you to our home screen.</p>
+<p>From here, a user can access any of our features: Input Meals which allows for meal input and multiple calorie visualizations, Recipes which displays a global recipe database and allows you to upload your own recipe, Ingredients which displays your current pantry of ingredients, and Shopping which facilitates an easy-access, integrated place to create your list and add all the ingredients from a recipe. These are just a few of the many features in our app that help to provide a quick and convenient meal tracker.</p>
+<!--<img src="greenplate-website%20dm%201.png" alt="Domain Model">-->
+<!--testing above line-->
 
-    <h3>Design & Architecture</h3>
+<h3>Design & Architecture</h3>
 
-    <p>We have watched as our project’s design has taken great leaps in the blink of an eye throughout the four allotted sprints. Starting out with a simple domain model and use case diagram (below respectively) with necessary classes and attributes jotted out, we began our journey.</p>
-    <div class="image-container">
-        <img src="greenplate-website%20dm%201.png" alt="Domain Model" style="width: 500px; height: auto;">
-        <img src="greenplate-website%20uc%202.png" alt="Use Case Diagram" style="width: 500px; height: auto;">
-    </div>
-    <br>
-    <p>After more consideration and thought, we developed this list of nouns, adding more ideas for potential features. Some attributes changed to be derived; more nouns were deemed necessary. Edits were made as needed to the previously drafted list.</p>
-    <p>Then, we proceeded to the next steps. Some of our members devised use case scenarios, detailing the interaction between users and our proposed app; eventually, we created more diagrams (System Diagram and System Sequence Diagram) to demonstrate this interaction (below respectively). During this process, we also began incorporating software design patterns. In this sprint, the first of many patterns to be added was the Singleton Pattern. The Singleton Pattern ensures one instance of an object is created, and that the relevant processes are given access to this instance.</p>
-    <div class="image-container">
-        <img src="greenplate-website%20ssd%203.jpg" alt="System Sequence Diagram" style="width: 500px; height: auto;">
-        <img src="greenplate-website%20dcd%204.jpg" alt="System Diagram" style="width: 500px; height: auto;">
-    </div>
-    <p>In our next sprint, our next Design Class Diagram and Sequence Diagram truly showed how far we had come in both design and code (below respectively). At this point, there was quite a bit of implementation, utilizing the Strategy pattern in addition to SOLID and GRASP principles like the creator pattern, controller pattern, low coupling, single responsibility principle, interface segregation principle, and dependency inversion principle. Finally, in our last sprint, we added observer pattern.</p>
-    <div class="image-container">
-        <img src="greenplate-website%20dcd%204.jpg" alt="Domain Class Diagram" style="width: 500px; height: auto;">
-        <img src="greenplate-website%20sd%205.png" alt="System Diagram" style="width: 500px; height: auto;">
-    </div>
+<p>We have watched as our project’s design has taken great leaps in the blink of an eye throughout the four allotted sprints. Starting out with a simple domain model and use case diagram (below respectively) with necessary classes and attributes jotted out, we began our journey.</p>
+<div class="image-container">
+    <img src="greenplate-website%20dm%201.png" alt="Domain Model" style="width: 500px; height: auto;">
+    <img src="greenplate-website%20uc%202.png" alt="Use Case Diagram" style="width: 500px; height: auto;">
+</div>
+<br>
+<p>After more consideration and thought, we developed this list of nouns, adding more ideas for potential features. Some attributes changed to be derived; more nouns were deemed necessary. Edits were made as needed to the previously drafted list.</p>
+<p>Then, we proceeded to the next steps. Some of our members devised use case scenarios, detailing the interaction between users and our proposed app; eventually, we created more diagrams (System Diagram and System Sequence Diagram) to demonstrate this interaction (below respectively). During this process, we also began incorporating software design patterns. In this sprint, the first of many patterns to be added was the Singleton Pattern. The Singleton Pattern ensures one instance of an object is created, and that the relevant processes are given access to this instance.</p>
+<div class="image-container">
+    <img src="greenplate-website%20ssd%203.jpg" alt="System Sequence Diagram" style="width: 500px; height: auto;">
+    <img src="greenplate-website%20dcd%204.jpg" alt="System Diagram" style="width: 500px; height: auto;">
+</div>
+<p>In our next sprint, our next Design Class Diagram and Sequence Diagram truly showed how far we had come in both design and code (below respectively). At this point, there was quite a bit of implementation, utilizing the Strategy pattern in addition to SOLID and GRASP principles like the creator pattern, controller pattern, low coupling, single responsibility principle, interface segregation principle, and dependency inversion principle. Finally, in our last sprint, we added observer pattern.</p>
+<div class="image-container">
+    <img src="greenplate-website%20dcd%204.jpg" alt="Domain Class Diagram" style="width: 500px; height: auto;">
+    <img src="greenplate-website%20sd%205.png" alt="System Diagram" style="width: 500px; height: auto;">
+</div>
 
-    <h4>A Visual Tour of our User Interface (UI)</h4>
-    <!--<p> Our welcome screen screen features sleek designs and a carefully chosen color pallete.</p>-->
-    <div class="image-container">
-        <img src="welcome%20screen.png" alt="Welcome Screen" style="width: 200px; height: auto;">
-        <img src="signup%20screen.png" alt="Signup Screen" style="width: 200px; height: auto;">
-        <img src="login%20screen.png" alt="Login Screen" style="width: 200px; height: auto;">
-    </div>
+<h4>User Interface</h4>
+<p>Our welcome screen screen features sleek designs and a carefully chosen color pallete.</p>
+<div class="image-container">
+    <img src="welcome screen.png" alt="Welcome Screen">
+    <img src="login screen.png" alt="Login Screen">
+    <img src="signup screen.png" alt="Signup Screen">
+</div>
 
-    <h5>In Review</h5>
+<p>Home screen and updating personal health details</p>
+<div class="image-container">
+    <img src="home screen.png" alt="Meal Screen">
+    <img src="updateinfo screen.png" alt="Update info Screen">
+</div>
 
-    <p>GreenPlate is a collaborative project with the intent to create and design an app that promotes sustainable food management for its users; we believe we have achieved that goal. Throughout the design and coding process, we faced many challenges: version control, tight deadlines, etc. Nevertheless, through our group efforts, we have come together to make the app you see demoed here. There are a lot of moving parts integrated into an intuitive, easy-to-use design.</p>
-    <p>All of our team members contributed to the app as needed during the span of two-week sprints. Under the given time constraints, we realized how interdependent our tasks and features were which thus changed our workstyle and influenced our scheduling as well. Overall, we learned how to work better as a team through productive in-person and online meetings to accomplish our goals.</p>
-    <br>
-    <br>
+<p>Meals</p>
+<div class="image-container">
+    <img src="meals screen.png" alt="Meals Screen">
+    <img src="visualone screen.png" alt="Visual 1 Screen">
+    <img src="visualtwo screen.png" alt="Visual 2 Screen">
+</div>
+
+<h5>In Review</h5>
+
+<p>GreenPlate is a collaborative project with the intent to create and design an app that promotes sustainable food management for its users; we believe we have achieved that goal. Throughout the design and coding process, we faced many challenges: version control, tight deadlines, etc. Nevertheless, through our group efforts, we have come together to make the app you see demoed here. There are a lot of moving parts integrated into an intuitive, easy-to-use design.</p>
+<p>All of our team members contributed to the app as needed during the span of two-week sprints. Under the given time constraints, we realized how interdependent our tasks and features were which thus changed our workstyle and influenced our scheduling as well. Overall, we learned how to work better as a team through productive in-person and online meetings to accomplish our goals.</p>
+<br>
+<br>
 
 </body>
 </html>
