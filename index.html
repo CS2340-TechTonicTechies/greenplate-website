@@ -16,10 +16,13 @@
         margin-bottom: 1em;
     }
     .image-container {
-        display: flex;
+      display: flex;
+        overflow-x: auto; /* Allow horizontal scrolling if needed */
     }
     .image-container img {
         margin-right: 10px;
+        max-width: 100%; /* Limit the maximum width of the images */
+        height: auto; /* Maintain the aspect ratio */
     }
 </style>
 <body>
