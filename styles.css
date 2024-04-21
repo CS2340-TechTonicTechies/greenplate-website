@@ -23,12 +23,18 @@ h2 {
 }
 
 h3 {
+    font-weight: 500;
+    font-size: clamp(18px, 18px + 2vw, 24px);
+    padding-top: 1.5rem;
+}
+
+h4 {
     font-weight: 400;
     font-size: clamp(16px, 16px + 1vw, 18px);
     padding-top: 1rem;
 }
 
-h3 {
+h4 {
     color: #FFF;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
